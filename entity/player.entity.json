@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "materials": {
+	"bud_chunk": "entity_beam_additive"
+      },
+      "textures": {
+        "bud_chunk": "textures/addon/bud_chunk"
+      },
+      "geometry": {
+        "bud_chunk": "geometry.bud_chunk"
+      },
+      "scripts": {
+        "animate": [
+          "root" , //vanilla
+          "bud_chunk"
+        ]
+      },
+      "animations": {
+        "bud_chunk": "animation.bud_chunk"
+      },
+      "render_controllers": [
+        { "controller.render.player.first_person": "variable.is_first_person" }, //vanilla
+        { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" }, //vanilla
+        { "controller.render.player.map": "variable.map_face_icon" } , //vanilla
+	
+	{ "controller.render.bud_chunk": "!variable.is_first_person && !variable.map_face_icon" }
+      ]
+    }
+  }
+}

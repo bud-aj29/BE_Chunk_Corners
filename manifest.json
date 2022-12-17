@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Chunk lines within a 3x3 chunk area centered on player",
+		"name": "Bud_Chunk_lines",
+		"uuid": "7775bef7-6af1-45b3-9f82-56a7e5173458",
+		"version": [ 0,0,4 ],
+		"min_engine_version": [ 1, 18, 0 ]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "resources",
+			"uuid": "bdc533d3-5aa4-47c1-9d49-581cef07ee44",
+			"version": [0, 0, 1]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bud_chunk": {
+      "geometry": "Geometry.bud_chunk",
+      "materials": [ { "*": "Material.bud_chunk" } ],
+      "textures": [ "Texture.bud_chunk" ],
+      "ignore_lighting":true
+    }
+  }
+}

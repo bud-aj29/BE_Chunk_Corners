@@ -1,0 +1,12 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.bud_chunk" : {
+			"loop" : true,
+			"bones" : {
+				"chunk1_0" : { "rotation" : [ 0,"-query.body_y_rotation",0 ] },
+				"chunk1_1" : { "position" : [ "((query.position(0)-(math.floor(query.position(0)/16)*16))*-16)+128", 0, "((query.position(2)-((math.floor(query.position(2)/16)+1)*16))*16)+128" ] }
+			}
+		}
+	}
+}

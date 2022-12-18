@@ -26,7 +26,7 @@
         { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon" }, //vanilla
         { "controller.render.player.map": "variable.map_face_icon" } , //vanilla
 	
-	{ "controller.render.bud_chunk": "!variable.is_first_person && !variable.map_face_icon" }
+	{ "controller.render.bud_chunk": "!variable.is_first_person && !variable.map_face_icon && !query.is_gliding && !query.is_swimming && !query.is_riding" }
       ]
     }
   }

@@ -1,8 +1,8 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Chunk lines within a 3x3 chunk area centered on player",
-		"name": "Bud_Chunk_lines",
+		"description": "Chunk line corners within a 3x3 chunk area centered on player",
+		"name": "Chunk_Corners",
 		"uuid": "7775bef7-6af1-45b3-9f82-56a7e5173458",
 		"version": [ 0,0,4 ],
 		"min_engine_version": [ 1, 18, 0 ]

@@ -3,15 +3,15 @@
 	"header": {
 		"description": "Chunk line corners within a 3x3 chunk area centered on player",
 		"name": "Chunk_Corners",
-		"uuid": "7775bef7-6af1-45b3-9f82-56a7e5173458",
-		"version": [ 0,0,4 ],
-		"min_engine_version": [ 1, 18, 0 ]
+		"uuid": "a658936d-2349-4e98-b3e4-0aa2ce05dad8",
+		"version": [ 0,0,5 ],
+		"min_engine_version": [ 1, 20, 10 ]
 	},
 	"modules": [
 		{
 			"description": "",
 			"type": "resources",
-			"uuid": "bdc533d3-5aa4-47c1-9d49-581cef07ee44",
+			"uuid": "bbd0330c-407c-4510-b7e8-89faa501ead1",
 			"version": [0, 0, 1]
 		}
 	]
